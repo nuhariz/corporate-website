@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+
+}
+
+p {
+  font-family: Times New Roman;
+  font-size: 20px;
+  color: grey;
+  text-align: justify;
+
+</style>
+</head>
+<body>
+
+<h1>Food and Drink</h1>
+<p>Give your friends a wedding menu they won't soon forget, and the specialty cocktails everyone will be talking about. It is because, one of the most important factors in your overall wedding is food and drink.
+
+It’s also one of the most enjoyed parts of the reception for your guests. While guests may not remember the particular details of your wedding dress or the song that played when you walked down the aisle, they will certainly remember the amazing meal they ate or the type of wedding cake you served. 
+
+Let’s go over all of the ins and outs of wedding catering. This includes your options for serving the meal and everything you need food, drink, dessert, and even what linens and table items you’re going to need at the wedding reception.
+</p>
+<br>
+<br>
+<center>
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<h2 class="w3-center">Menu</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="food1.jpg" style="width:100%">
+  <img class="mySlides" src="food2.jpg" style="width:100%">
+  <img class="mySlides" src="food3.jpg" style="width:100%">
+  <img class="mySlides" src="food4.jpg" style="width:100%">
+  <img class="mySlides" src="food5.jpg" style="width:100%">
+  <img class="mySlides" src="drink1.jpg" style="width:100%">
+  <img class="mySlides" src="drink2.jpg" style="width:100%">
+  <img class="mySlides" src="drink3.jpg" style="width:100%">
+  <img class="mySlides" src="drink4.jpg" style="width:100%">
+  <img class="mySlides" src="drink5.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</center>
+<br>
+<br>
+<center><button><a href="makeup.html">Previous </a></button> <button><a href="photography.html">Next</a></button></center>
+</body>
+</html> 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEDDING PORTAL</title>
+</head>
+<br>
+<center>
+	<style> 
+		.mySlides {display: none;}
+	</style> 
+<body>
+	<button><a href="weddingdress.html"> Dresses </a></button> 
+	<button><a href="weddingdecorations.html"> Decorations </a></button>
+	<button><a href="makeup.html">Make Up </a></button>
+	<button><a href="foodanddrink.html"> Catering </a></button>
+	<button><a href="photography.html"> Photography </a></button>
+	<button><a href="cakes.html"> Cakes </a></button>
+	<button><a href="desserttable.html"> Dessert </a></button>
+	<button><a href="Photobooth.html"> Photobooth </a></button>
+	<button><a href="performance.html"> Performance </a></button>
+	<button><a href="canopy.html"> Canopy </a></button>
+	<button><a href="doorgift.html"> Doorgift </a></button>
+<h1 class="w3-center">Everything about your wedding in one place</h1>
+<div class="w3-content w3-content" style="max-width: 400px">
+	<img class="mySlides" src="wed.jpg" style="width: 400px">
+	<img class="mySlides" src="wed1.jpg" style="width: 400px">
+	<img class="mySlides" src="wed2.jpg" style="width: 400px">
+	<img class="mySlides" src="wed3.jpg" style="width: 400px">
+	<img class="mySlides" src="wed4.jpg" style="width: 400px">
+	<img class="mySlides" src="wed5.jpg" style="width: 400px">
+</div>
+<script>
+	var myIndex = 0;
+	carousel ();
+
+	function carousel () {
+		var i;
+		var x = document.getElementsByClassName ("mySlides");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+		setTimeout (carousel, 2000); // Change image every 10 seconds 
+	}
+</script>
+</center> 
+<br>
+
+<h3>Everyone has their own wedding dreams, and they want to make sure that their wedding dreams come true.</h3>
+<h2>Here we are going to make your dreams comes true!</h2>
+
+<center> <button><a href="weddingdress.html">Next</a></button></center>
+</body>
+</html>
